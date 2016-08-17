@@ -1,29 +1,41 @@
-name: EsscentualAlchemy
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 1
 title: Esscentual Alchemy natural botanical perfume - I compose Music for your Nose
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.625
+  brandStrength: 0.0625
+  lightness: 0.375
+  brandColors:
+    - '#FDFDFD'
+    - '#231009'
+    - '#CCCCCC'
+    - '#777777'
+    - '#414141'
+  rhythmicContrast: 0.5
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+favicon: null
+name: EsscentualAlchemy
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#040404'
-    - '#c2c2c2'
-    - '#313131'
-    - '#5e5e5e'
-    - '#fbfbfb'
-  brandStrength: 0.0625
-  lightness: 0.375
-  saturation: 0.625
-  rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 1
+layout_spectrum: 1
