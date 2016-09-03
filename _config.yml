@@ -6,15 +6,15 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 color:
   saturation: 0.625
-  brandStrength: 0.0625
+  brandStrength: 1
   lightness: 0.375
   brandColors:
     - '#FDFDFD'
@@ -27,12 +27,12 @@ cta:
   bucket: null
   version: null
   domain: null
-name: EsscentualAlchemy
-favicon: null
 analytics:
   twitter: null
   google: null
   facebook: null
+name: EsscentualAlchemy
+favicon: null
 opengraph:
   image: null
   type: null
