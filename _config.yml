@@ -13,26 +13,26 @@ collections:
     permalink:
       path: '/:title/'
 color:
-  saturation: 0.625
+  saturation: 0.5084317
   brandStrength: 1
-  lightness: 0.375
+  lightness: 0.5219224
   brandColors:
     - '#FDFDFD'
     - '#231009'
     - '#CCCCCC'
     - '#777777'
     - '#414141'
-  rhythmicContrast: 0.5
+  rhythmicContrast: 0
 cta:
   bucket: null
   version: null
   domain: null
+favicon: null
 analytics:
   twitter: null
   google: null
   facebook: null
 name: EsscentualAlchemy
-favicon: null
 opengraph:
   image: null
   type: null
